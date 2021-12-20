@@ -78,6 +78,29 @@ export default function Weather() {
       </div>
     );
   } else {
-    return form;
+    return (
+      <div>
+        {form}
+        <div className="row searchResults">
+          <div className="col-sm-6">
+            <div className="weatherImage">
+              <p>🌤</p>
+            </div>
+            <div className="bigTemp">
+              <p>19</p>
+            </div>
+            <div className="weatherUnits">℃</div>
+          </div>
+
+          <div className="col-sm-6">
+            <ul>
+              <li>Description: clouds</li>
+              <li>Wind: 5 km/h</li>
+              <li>Humidity: 5 %</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
   }
 }

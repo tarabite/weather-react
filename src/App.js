@@ -19,7 +19,7 @@ function App() {
         Diego
         <br />
         Hosted on
-        <a href=".">Netlify</a>
+        <a href="https://epic-mcnulty-bcbc4b.netlify.app">Netlify</a>
       </small>
     </div>
   );
