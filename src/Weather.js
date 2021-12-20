@@ -58,15 +58,23 @@ export default function Weather() {
     return (
       <div>
         {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}℃</li>
-          <li>Description: {weather.description}</li>
-          <li>Wind: {Math.round(weather.wind)}km/h</li>
-          <li>Humidity: {weather.humidity}%</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
+        <div className="row searchResults">
+          <div className="col-8">
+            <ul>
+              <li>Description: {weather.description}</li>
+              <li>Wind: {Math.round(weather.wind)}km/h</li>
+              <li>Humidity: {weather.humidity}%</li>
+            </ul>
+          </div>
+          <div className="col-4 bigTemp">
+            <ul>
+              <li>
+                <img src={weather.icon} alt={weather.description} />
+              </li>
+              <li>{Math.round(weather.temperature)}°C</li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   } else {

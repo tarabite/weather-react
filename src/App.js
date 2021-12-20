@@ -12,13 +12,13 @@ function App() {
       </header>
       <small>
         Open-sourced on{" "}
-        <a href="#" target="_blank">
+        <a href="" target="_blank">
           GitHub
         </a>{" "}
         by Tara Diego
         <br />
         Hosted on
-        <a href="#" target="_blank">
+        <a href="" target="_blank">
           Netlify
         </a>
       </small>
