@@ -1,5 +1,6 @@
 import React from "react";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 import "./App.css";
 
@@ -9,6 +10,8 @@ function App() {
       <header className="App-header">
         <h1>Weather App</h1>
         <Weather />
+        <hr />
+        <Forecast />
       </header>
       <small>
         Open-sourced on{" "}
@@ -18,7 +21,7 @@ function App() {
         by Tara Diego
         <br />
         Hosted on
-        <a href="" target="_blank">
+        <a href="." target="_blank">
           Netlify
         </a>
       </small>

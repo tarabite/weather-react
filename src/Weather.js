@@ -59,19 +59,21 @@ export default function Weather() {
       <div>
         {form}
         <div className="row searchResults">
-          <div className="col-8">
+          <div className="col-sm-6">
+            <div className="clearfix">
+              <div className="float-left weatherImage">
+                <img src={weather.icon} alt={weather.description} />
+              </div>
+              <div className="bigTemp">{Math.round(weather.temperature)}</div>
+              <div className="weatherUnits">℃</div>
+            </div>
+          </div>
+
+          <div className="col-sm-6">
             <ul>
               <li>Description: {weather.description}</li>
               <li>Wind: {Math.round(weather.wind)}km/h</li>
               <li>Humidity: {weather.humidity}%</li>
-            </ul>
-          </div>
-          <div className="col-4 bigTemp">
-            <ul>
-              <li>
-                <img src={weather.icon} alt={weather.description} />
-              </li>
-              <li>{Math.round(weather.temperature)}°C</li>
             </ul>
           </div>
         </div>

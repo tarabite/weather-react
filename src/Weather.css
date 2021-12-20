@@ -1,3 +1,12 @@
+:root {
+  --branding-color: #fdc57b;
+  --section-color: #fbf2d5;
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -7,7 +16,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #272142;
+  color: var(--primary-color);
   font-size: 20px;
   font-weight: 100;
   line-height: 25px;
@@ -17,11 +26,23 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.searchResults {
-  margin-top: 20px;
+.searchForm {
+  margin: 20px 0;
 }
 
-.bigTemp li {
+.searchResults {
+  text-align: left;
+}
+
+.bigTemp span {
   font-size: 50px;
-  text-align: center;
+}
+
+.units a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.units p {
+  font-size: 20px;
 }
