@@ -12,7 +12,7 @@ function App() {
       </header>
       <small>
         Open-sourced on{" "}
-        <a href="" target="_blank">
+        <a href="https://github.com/tarabite/weather-react" target="_blank">
           GitHub
         </a>{" "}
         by Tara Diego
