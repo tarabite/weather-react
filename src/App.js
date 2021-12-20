@@ -15,15 +15,11 @@ function App() {
       </header>
       <small>
         Open-sourced on{" "}
-        <a href="https://github.com/tarabite/weather-react" target="_blank">
-          GitHub
-        </a>{" "}
-        by Tara Diego
+        <a href="https://github.com/tarabite/weather-react">GitHub</a> by Tara
+        Diego
         <br />
         Hosted on
-        <a href="." target="_blank">
-          Netlify
-        </a>
+        <a href=".">Netlify</a>
       </small>
     </div>
   );
