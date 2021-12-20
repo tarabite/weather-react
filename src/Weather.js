@@ -60,13 +60,11 @@ export default function Weather() {
         {form}
         <div className="row searchResults">
           <div className="col-sm-6">
-            <div className="clearfix">
-              <div className="float-left weatherImage">
-                <img src={weather.icon} alt={weather.description} />
-              </div>
-              <div className="bigTemp">{Math.round(weather.temperature)}</div>
-              <div className="weatherUnits">℃</div>
+            <div className="float-left weatherImage">
+              <img src={weather.icon} alt={weather.description} />
             </div>
+            <div className="bigTemp">{Math.round(weather.temperature)}</div>
+            <div className="weatherUnits">℃</div>
           </div>
 
           <div className="col-sm-6">
