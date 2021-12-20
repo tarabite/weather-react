@@ -16,7 +16,7 @@ function App() {
           <br />
           To stop the server, go to terminal, select node and type "ctrl+c"
         </p>
-        <Weather />
+        <Weather city="Paris" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
