@@ -6,42 +6,42 @@ export default function Forecast() {
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
       <div className="col-sm-2">
         <ul>
           <li>Date</li>
-          <li>Image</li>
+          <li>🌤</li>
           <li>Temp</li>
         </ul>
       </div>
