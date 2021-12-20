@@ -18,7 +18,7 @@ function App() {
         <a href="https://github.com/tarabite/weather-react">GitHub</a> by Tara
         Diego
         <br />
-        Hosted on
+        Hosted on{" "}
         <a href="https://app.netlify.com/sites/epic-mcnulty-bcbc4b/overview">
           Netlify
         </a>
